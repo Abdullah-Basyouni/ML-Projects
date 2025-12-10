@@ -30,13 +30,6 @@ source venv/bin/activate
 venv\Scripts\activate
 ```
 
-2️⃣ Technologies & Tools
-Python 
-NumPy & Pandas
-Matplotlib & Seaborn
-Scikit-learn
-Jupyter Notebook
-Optional: TensorFlow, PyTorch
 ذذذي
 ذذذ
 
