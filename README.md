@@ -36,7 +36,7 @@ NumPy & Pandas
 Matplotlib & Seaborn
 Scikit-learn
 Jupyter Notebook
-Optional: TensorFlow, PyTorchذ
+Optional: TensorFlow, PyTorch
 ذذذي
 ذذذ
 
