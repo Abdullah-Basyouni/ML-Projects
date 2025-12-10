@@ -30,8 +30,6 @@ source venv/bin/activate
 venv\Scripts\activate
 ```
 
-ذذذي
-ذذذ
 
 3️⃣ Notes
 
@@ -49,5 +47,4 @@ Contributions and suggestions are welcome!
 LinkedIn: https://www.linkedin.com/in/abdullah-basyouni-548a022a6/
 
 Email: bodybasuni2007@gmail.com
-ييتب
-ذذذذذ
+
