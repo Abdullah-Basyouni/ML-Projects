@@ -109,7 +109,7 @@ The project also includes experiments comparing different Neural Network archite
 
 📁 Project Folder:
 
-`Spaceship-Titanic`
+`Spaceship Titanic 2026 `
 
 ---
 
