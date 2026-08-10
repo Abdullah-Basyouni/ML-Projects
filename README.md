@@ -1,20 +1,5 @@
 # 🤖 Machine Learning Projects 🚀
 
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Welcome+to+my+Machine+Learning+Journey!;Building+Models+%7C+Analyzing+Data+%7C+Learning+Every+Day+%F0%9F%9A%80;Turning+Data+into+Intelligent+Solutions+%F0%9F%A4%96" alt="Typing SVG" />
-
-<br><br>
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white)
-
-</div>
-
 ---
 
 ## 👋 About This Repository
@@ -33,15 +18,15 @@ Each project focuses on solving a real-world problem using data, from **data cle
 
 Throughout this repository, you'll find projects covering:
 
-- 🧹 **Data Cleaning & Preprocessing**
-- 🔍 **Exploratory Data Analysis (EDA)**
-- ⚙️ **Feature Engineering**
-- 📊 **Data Visualization**
-- 🤖 **Machine Learning Models**
-- 🧠 **Neural Networks & Deep Learning**
-- 📈 **Model Evaluation & Comparison**
-- 🎯 **Hyperparameter Tuning**
-- 📉 **Error & Performance Analysis**
+* 🧹 **Data Cleaning & Preprocessing**
+* 🔍 **Exploratory Data Analysis (EDA)**
+* ⚙️ **Feature Engineering**
+* 📊 **Data Visualization**
+* 🤖 **Machine Learning Models**
+* 🧠 **Neural Networks & Deep Learning**
+* 📈 **Model Evaluation & Comparison**
+* 🎯 **Hyperparameter Tuning**
+* 📉 **Error & Performance Analysis**
 
 ---
 
@@ -53,19 +38,19 @@ A Machine Learning project focused on predicting the presence of heart disease u
 
 ### 🔧 Techniques & Models
 
-- Logistic Regression
-- Random Forest
-- Data Preprocessing
-- Outlier Handling
-- Model Evaluation
-- Performance Comparison
+* Logistic Regression
+* Random Forest
+* Data Preprocessing
+* Outlier Handling
+* Model Evaluation
+* Performance Comparison
 
 ### 📊 Results
 
-| Model | Accuracy |
-|------|----------|
-| Logistic Regression | 🟢 81% |
-| Random Forest | 🟢 98% |
+| Model               | Accuracy |
+| ------------------- | -------- |
+| Logistic Regression | 🟢 81%   |
+| Random Forest       | 🟢 98%   |
 
 ### 📂 Dataset
 
@@ -85,21 +70,21 @@ The goal is to predict whether a passenger was **Transported to another dimensio
 
 ### 🔧 Techniques & Concepts
 
-- Data Cleaning
-- Missing Values Handling
-- Feature Engineering
-- Categorical Encoding
-- Outlier Analysis
-- Log Transformation
-- Robust Scaling
-- Neural Networks
-- Adam Optimizer
-- AdamW Optimizer
-- Batch Normalization
-- Dropout
-- Early Stopping
-- Learning Rate Scheduling
-- Model Evaluation
+* Data Cleaning
+* Missing Values Handling
+* Feature Engineering
+* Categorical Encoding
+* Outlier Analysis
+* Log Transformation
+* Robust Scaling
+* Neural Networks
+* Adam Optimizer
+* AdamW Optimizer
+* Batch Normalization
+* Dropout
+* Early Stopping
+* Learning Rate Scheduling
+* Model Evaluation
 
 ### 🧠 Model Performance
 
@@ -109,25 +94,165 @@ The project also includes experiments comparing different Neural Network archite
 
 📁 Project Folder:
 
-`Spaceship Titanic 2026 `
+`Spaceship Titanic 2026`
+
+---
+
+## ✋ 3. CV Project - Rock Paper Scissors
+
+A **Computer Vision and Deep Learning** project that uses a **Convolutional Neural Network (CNN)** to classify hand gestures into **Rock, Paper, or Scissors** in real time.
+
+The project combines **Image Processing, Deep Learning, and OpenCV** to build an interactive Rock Paper Scissors game using a webcam.
+
+### 🔧 Techniques & Concepts
+
+* Image Acquisition
+* Image Preprocessing
+* RGB & HSV Color Spaces
+* Image Resizing
+* Median Filtering
+* Data Augmentation
+* Image Normalization
+* Convolutional Neural Networks (CNN)
+* Max Pooling
+* Batch Normalization
+* Dropout
+* Softmax Classification
+* Confusion Matrix
+* Classification Report
+* Real-Time Computer Vision
+* OpenCV
+* Webcam Integration
+
+### 🧠 CNN Architecture
+
+```text
+Input Image (224 × 224 × 3)
+        ↓
+Data Augmentation
+        ↓
+Normalization
+        ↓
+Conv2D (32 Filters)
+        ↓
+MaxPooling
+        ↓
+Conv2D (64 Filters)
+        ↓
+MaxPooling
+        ↓
+Conv2D (128 Filters)
+        ↓
+MaxPooling
+        ↓
+Flatten
+        ↓
+Dense (128)
+        ↓
+Batch Normalization
+        ↓
+Dropout
+        ↓
+Softmax (3 Classes)
+```
+
+### 🎯 Classes
+
+| Class       | Gesture  |
+| ----------- | -------- |
+| ✋ Paper     | Paper    |
+| ✊ Rock      | Rock     |
+| ✌️ Scissors | Scissors |
+
+### 📊 Dataset
+
+The project uses a **Rock Paper Scissors image dataset** containing **2,187 images** across three classes.
+
+| Class     |    Images |
+| --------- | --------: |
+| Paper     |       711 |
+| Rock      |       726 |
+| Scissors  |       750 |
+| **Total** | **2,187** |
+
+The images are processed and resized to:
+
+```text
+224 × 224 × 3
+```
+
+### 🖼️ Image Processing Pipeline
+
+```text
+Image Acquisition
+        ↓
+RGB Conversion
+        ↓
+Image Resizing
+        ↓
+Image Preprocessing
+        ↓
+Data Augmentation
+        ↓
+Normalization
+        ↓
+CNN Classification
+```
+
+### 🎮 Real-Time Game
+
+The trained CNN model is integrated with **OpenCV** to perform real-time hand gesture classification using a webcam.
+
+The camera feed is divided into two **Regions of Interest (ROIs)**, one for each player.
+
+The system:
+
+1. Captures frames from the webcam.
+2. Extracts the two player ROIs.
+3. Preprocesses each ROI.
+4. Sends the images to the trained CNN.
+5. Predicts **Rock, Paper, or Scissors**.
+6. Compares both predictions.
+7. Determines and displays the winner in real time.
+
+### 🧪 Model Evaluation
+
+The model was evaluated using:
+
+* Accuracy
+* Validation Accuracy
+* Confusion Matrix
+* Classification Report
+* Prediction Visualization
+
+### 🛠️ Technologies
+
+* Python
+* TensorFlow
+* Keras
+* OpenCV
+* NumPy
+* Pandas
+* Matplotlib
+* Scikit-learn
+
+📁 Project Folder:
+
+`CV Project`
 
 ---
 
 # 🛠️ Tech Stack
 
-<div align="center">
-
-| Category | Technologies |
-|----------|-------------|
-| 💻 Programming | Python |
-| 📊 Data Analysis | Pandas, NumPy |
-| 📈 Visualization | Matplotlib, Seaborn |
-| 🤖 Machine Learning | Scikit-learn |
-| 🧠 Deep Learning | TensorFlow, Keras |
-| 📓 Development | Jupyter Notebook, Google Colab |
-| 🗂️ Version Control | Git & GitHub |
-
-</div>
+| Category            | Technologies                   |
+| ------------------- | ------------------------------ |
+| 💻 Programming      | Python                         |
+| 📊 Data Analysis    | Pandas, NumPy                  |
+| 📈 Visualization    | Matplotlib, Seaborn            |
+| 🤖 Machine Learning | Scikit-learn                   |
+| 🧠 Deep Learning    | TensorFlow, Keras              |
+| 📓 Development      | Jupyter Notebook, Google Colab |
+| 🗂️ Version Control | Git & GitHub                   |
 
 ---
 
@@ -151,3 +276,4 @@ Deep Learning
 Model Optimization
      ↓
 Real-World Projects 🚀
+```
